@@ -2,6 +2,6 @@ import React from "react";
 
 export default class Home extends React.Component {
   render() {
-    return <div>55555</div>;
+    return <div>66666</div>;
   }
 }

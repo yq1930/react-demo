@@ -1,9 +1,20 @@
 import React from "react";
 // import Home from "./Home";
 // import MyNav from "./MyNav";
-import State from "./State";
+// import State from "./State";
+import ComponentList from "./ComponentList";
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: "文本1",
+    };
+  }
+
+  changeTitle = (data) => {
+    this.setState({ title: data });
+  };
   render() {
     // let nav1 = ["1", "2", "3"];
     // let nav2 = ["111", "222", "333"];
@@ -16,7 +27,12 @@ export default class App extends React.Component {
     // );
     return (
       <div>
-        <State />
+        {/* <State /> */}
+        <ComponentList
+          title={this.state.title}
+          changeTitle={this.changeTitle}
+        />
+        {/* <button onClick={this.changeTitle}>修改title</button> */}
       </div>
     );
   }
