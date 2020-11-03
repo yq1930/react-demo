@@ -9,3 +9,7 @@ componentDidUpdate:数据修改后执行
 componentWillReveiceProps:props 发生改变执行
 
 componentWillUnmount:组件卸载前执行
+
+### key
+
+在 react 中 key 的作用，当数据渲染量较大时，改变数据，有 key 时，如果 key 不发生变化，则整个 ui 页面不会全部重绘，只是 key 改变的部分重新绘制

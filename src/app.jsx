@@ -2,7 +2,10 @@ import React from "react";
 // import Home from "./Home";
 // import MyNav from "./MyNav";
 // import State from "./State";
-import ComponentList from "./ComponentList";
+// import ComponentList from "./ComponentList";
+// import SetStateDemo from "./SetStateDemo";
+// import IfDemo from "./IfDemo";
+import KeyDemo from "./KeyDemo";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -28,11 +31,14 @@ export default class App extends React.Component {
     return (
       <div>
         {/* <State /> */}
-        <ComponentList
+        {/* <ComponentList
           title={this.state.title}
           changeTitle={this.changeTitle}
-        />
+        /> */}
         {/* <button onClick={this.changeTitle}>修改title</button> */}
+        {/* <SetStateDemo /> */}
+        {/* <IfDemo /> */}
+        <KeyDemo></KeyDemo>
       </div>
     );
   }
