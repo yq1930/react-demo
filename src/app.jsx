@@ -5,7 +5,10 @@ import React from "react";
 // import ComponentList from "./ComponentList";
 // import SetStateDemo from "./SetStateDemo";
 // import IfDemo from "./IfDemo";
-import KeyDemo from "./KeyDemo";
+// import KeyDemo from "./KeyDemo";
+// import RefsAndDemo from "./RefsAndDemo";
+// import RefsAndForm from "./RefsAndForm";
+import Parent from "./components/parent";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -38,7 +41,10 @@ export default class App extends React.Component {
         {/* <button onClick={this.changeTitle}>修改title</button> */}
         {/* <SetStateDemo /> */}
         {/* <IfDemo /> */}
-        <KeyDemo></KeyDemo>
+        {/* <KeyDemo></KeyDemo> */}
+        {/* <RefsAndDemo></RefsAndDemo> */}
+        {/* <RefsAndForm /> */}
+        <Parent />
       </div>
     );
   }

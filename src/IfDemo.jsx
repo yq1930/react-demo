@@ -22,7 +22,7 @@ export default class IfDemo extends React.Component {
         <p>{isShowName}</p>
         <button onClick={this.changeBtn}>登陆</button>
 
-        {names.length != 0 ? (
+        {names.length !== 0 ? (
           names.map((item, index) => {
             return (
               <div key={index}>
