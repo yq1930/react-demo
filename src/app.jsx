@@ -8,19 +8,20 @@ import React from "react";
 // import KeyDemo from "./KeyDemo";
 // import RefsAndDemo from "./RefsAndDemo";
 // import RefsAndForm from "./RefsAndForm";
-import Parent from "./components/parent";
+// import Parent from "./components/parent";
+import PropsTypeDemo from "./PropsTypeDemo";
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: "文本1",
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     title: "文本1",
+  //   };
+  // }
 
-  changeTitle = (data) => {
-    this.setState({ title: data });
-  };
+  // changeTitle = (data) => {
+  //   this.setState({ title: data });
+  // };
   render() {
     // let nav1 = ["1", "2", "3"];
     // let nav2 = ["111", "222", "333"];
@@ -44,7 +45,8 @@ export default class App extends React.Component {
         {/* <KeyDemo></KeyDemo> */}
         {/* <RefsAndDemo></RefsAndDemo> */}
         {/* <RefsAndForm /> */}
-        <Parent />
+        {/* <Parent /> */}
+        <PropsTypeDemo title="" />
       </div>
     );
   }
