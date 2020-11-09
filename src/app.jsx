@@ -9,7 +9,8 @@ import React from "react";
 // import RefsAndDemo from "./RefsAndDemo";
 // import RefsAndForm from "./RefsAndForm";
 // import Parent from "./components/parent";
-import PropsTypeDemo from "./PropsTypeDemo";
+// import PropsTypeDemo from "./PropsTypeDemo";
+import { Button } from "antd";
 
 export default class App extends React.Component {
   // constructor(props) {
@@ -46,7 +47,12 @@ export default class App extends React.Component {
         {/* <RefsAndDemo></RefsAndDemo> */}
         {/* <RefsAndForm /> */}
         {/* <Parent /> */}
-        <PropsTypeDemo title="" />
+        {/* <PropsTypeDemo title="" /> */}
+        <Button type="primary">Primary Button</Button>
+        <Button>Default Button</Button>
+        <Button type="dashed">Dashed Button</Button>
+        <Button type="text">Text Button</Button>
+        <Button type="link">Link Button</Button>
       </div>
     );
   }
