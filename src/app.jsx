@@ -10,7 +10,8 @@ import React from "react";
 // import RefsAndForm from "./RefsAndForm";
 // import Parent from "./components/parent";
 // import PropsTypeDemo from "./PropsTypeDemo";
-import { Button } from "antd";
+// import { Button } from "antd";
+import FetchDemo from "./FetchDemo";
 
 export default class App extends React.Component {
   // constructor(props) {
@@ -48,11 +49,12 @@ export default class App extends React.Component {
         {/* <RefsAndForm /> */}
         {/* <Parent /> */}
         {/* <PropsTypeDemo title="" /> */}
-        <Button type="primary">Primary Button</Button>
+        {/* <Button type="primary">Primary Button</Button>
         <Button>Default Button</Button>
         <Button type="dashed">Dashed Button</Button>
         <Button type="text">Text Button</Button>
-        <Button type="link">Link Button</Button>
+        <Button type="link">Link Button</Button> */}
+        <FetchDemo />
       </div>
     );
   }
