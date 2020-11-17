@@ -11,7 +11,9 @@ import React from "react";
 // import Parent from "./components/parent";
 // import PropsTypeDemo from "./PropsTypeDemo";
 // import { Button } from "antd";
-import FetchDemo from "./FetchDemo";
+// import FetchDemo from "./FetchDemo";
+// import ProxyDemo from "./ProxyDemo";
+import HttpDemo from "./HttpDemo";
 
 export default class App extends React.Component {
   // constructor(props) {
@@ -54,7 +56,9 @@ export default class App extends React.Component {
         <Button type="dashed">Dashed Button</Button>
         <Button type="text">Text Button</Button>
         <Button type="link">Link Button</Button> */}
-        <FetchDemo />
+        {/* <FetchDemo /> */}
+        {/* <ProxyDemo /> */}
+        <HttpDemo />
       </div>
     );
   }
